@@ -1,0 +1,15 @@
+@import "_colors.scss";
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(100, auto);
+  background-color: $darkAccent;
+  padding: 10px;
+}
+.grid-item {
+  background-color: $lightAccent;
+  border: 1px solid $darkShades;
+  border-radius: 7px;
+  padding: 1em 1em 2em 1em;
+  font-size: 1em;
+  text-align: left;
+}
